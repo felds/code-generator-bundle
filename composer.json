@@ -1,0 +1,15 @@
+{
+    "name": "carbon6/code-generator-bundle",
+    "description": "Generate random strings.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Felds Liscia",
+            "email": "dev@felds.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+
+    }
+}

@@ -1,0 +1,5 @@
+services:
+    carbon6.code_generator.default:
+        class: Carbon6\CodeGeneratorBundle\Generator\Generator
+
+    carbon6.code_generator: @carbon6.code_generator.default
