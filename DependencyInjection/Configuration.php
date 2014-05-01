@@ -1,6 +1,6 @@
 <?php
 
-namespace Carbon6\CodeGeneratorBundle\DependencyInjection;
+namespace Felds\CodeGeneratorBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('carbon6_code_generator');
+        $rootNode = $treeBuilder->root('felds_code_generator');
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for

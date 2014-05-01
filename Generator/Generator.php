@@ -1,6 +1,6 @@
 <?php
 
-namespace Carbon6\CodeGeneratorBundle\Generator;
+namespace Felds\CodeGeneratorBundle\Generator;
 
 class Generator
 {

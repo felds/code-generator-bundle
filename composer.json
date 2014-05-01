@@ -1,5 +1,5 @@
 {
-    "name": "carbon6/code-generator-bundle",
+    "name": "felds/code-generator-bundle",
     "description": "Generate random strings.",
     "license": "MIT",
     "authors": [
@@ -12,6 +12,6 @@
     "require": {
     },
     "autoload": {
-        "psr-4": { "Carbon6\\CodeGeneratorBundle\\": "" }
+        "psr-4": { "Felds\\CodeGeneratorBundle\\": "" }
     }
 }

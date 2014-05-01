@@ -1,8 +1,8 @@
 <?php
 
-namespace Carbon6\CodeGeneratorBundle\Tests\Generator;
+namespace Felds\CodeGeneratorBundle\Tests\Generator;
 
-use Carbon6\CodeGeneratorBundle\Generator\Generator;
+use Felds\CodeGeneratorBundle\Generator\Generator;
 
 
 /**
@@ -34,7 +34,7 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
 
     function test_it_should_be_instance_of()
     {
-        $this->assertInstanceOf('Carbon6\CodeGeneratorBundle\Generator\Generator' , $this->object);
+        $this->assertInstanceOf('Felds\CodeGeneratorBundle\Generator\Generator' , $this->object);
     }
 
     function test_if_length_accessors_work()
@@ -100,7 +100,7 @@ class GeneratorTest extends \PHPUnit_Framework_TestCase
 
     public function charssProvider()
     {
-        $cr = new \ReflectionClass('Carbon6\CodeGeneratorBundle\Generator\Generator');
+        $cr = new \ReflectionClass('Felds\CodeGeneratorBundle\Generator\Generator');
         $return = [];
 
         foreach ($cr->getConstants() as $const => $chars) {
